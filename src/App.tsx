@@ -1435,16 +1435,7 @@ export default function App() {
 
           <div className="flex items-center justify-between px-6 py-4">
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center flex-shrink-0">
-                <img
-                  src="/logo.jpeg"
-                  alt="Chakravue AI Logo"
-                  style={{
-                    width: '50%',
-                    height: '100%',
-                    objectFit: 'cover'
-                  }}
-                />
+              <div className="hidden">
               </div>
               <div>
                 <EditableText
